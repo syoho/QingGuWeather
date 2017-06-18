@@ -22,7 +22,7 @@ android {
 //将项目所需的依赖库进行声明
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile fileTree(dir: 'libs',include: ['*.jar'] )
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.2.1'
     compile 'org.litepal.android:core:1.3.2'
